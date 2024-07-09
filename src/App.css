@@ -1,38 +1,201 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+}
+
+.topheader {
+  margin-top: 0;
+  padding: 0.1rem;
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: #6cabea;
+
+}
+
+.topheader p {
+  font-size: 0.9rem;
+}
+.topheader p a {
+  text-decoration: none;
+}
+
+.midHeader {
+  margin: 1rem 10%;
+  /* background-color: bisque; */
+  width: 75vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.midHeader img {
+  height: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.midHeader .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.midHeader .button {
+  background-color: #007bff;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.midHeader .login-btn {
+  background-color: rgba(158, 152, 152, 0.751);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+}
+.midHeader .nav-links {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+.midHeader .nav-links .nav-link {
+  margin-right: 1.5rem;
+  font-size: 0.8rem;
+}
+header {
+  padding: 0 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul {
+  display: inline-block;
+  background-color: rgb(203, 230, 246);
+  list-style: none;
+  padding: 0.9rem 1rem;
+  /* margin-top: 3rem; */
+  border-radius: 20px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul li {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-size: 0.9rem;
+  display: inline;
+  margin: 0 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.active {
+  color: #007bff;
+}
+
+.hero {
+  height: 70vh;
+  /* background-color: #e9ecef; */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+
+.hero .content {
+  background-color: rgb(243, 243, 255);
+  /* border: 2px solid black; */
+  height: 100%;
+  width: 75vw;
+  margin-left: 12%;
+  background-image: url("./components/assets/heroSection-Bihb70-y.png");
+  background-repeat: no-repeat;
+  background-position:right;
+  background-size: contain;
+  text-align: left;
+
+}
+
+.hero h1 {
+  margin: 5px 10px;
+  font-size: 5rem;
+}
+
+.hero p {
+  font-size: 2.7rem;
+
+  margin: 5px 20px;
+}
+.hero p span {
+  font-size: 3rem;
+  color:#007bff;
+}
+.hero button {
+  margin-left: 1.5rem;
+  margin-top: 1.2rem;
+  padding: 13px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Add your existing styles here */
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.ReactModal__Content {
+  /* position: relative; */
+  /* top: 50%; */
+  /* left: 50%; */
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  /* transform: translate(-50%, -50%); */
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  outline: none;
+  width: 50%;
+  
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+form input, form select {
+  width: 90%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+form button {
+  margin-right: 10px;
+  /* padding: 10px 20px; */
+  padding: 0.8rem 1.7rem;
+
+  cursor: pointer;
+  border-radius: 10px;
+border: none;
+}
+
+form .refer-btn {
+  background-color: #007bff;
+  padding: 0.8rem 1.7rem;
+  border-radius: 10px;
+  border: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  cursor: pointer;
 }
