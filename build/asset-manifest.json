@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.156e76ab.css",
+    "main.js": "/static/js/main.6b40d920.js",
+    "static/js/453.7618d80a.chunk.js": "/static/js/453.7618d80a.chunk.js",
+    "static/media/heroSection-Bihb70-y.png": "/static/media/heroSection-Bihb70-y.f2511ab8df67154d6002.png",
+    "static/media/logo.png": "/static/media/logo.4257712c0b9609b5708f.png",
+    "index.html": "/index.html",
+    "main.156e76ab.css.map": "/static/css/main.156e76ab.css.map",
+    "main.6b40d920.js.map": "/static/js/main.6b40d920.js.map",
+    "453.7618d80a.chunk.js.map": "/static/js/453.7618d80a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.156e76ab.css",
+    "static/js/main.6b40d920.js"
+  ]
+}
